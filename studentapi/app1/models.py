@@ -9,7 +9,7 @@ class Student(models.Model):
     mobile=models.IntegerField()
     address=models.CharField(max_length=120)
     about=models.CharField(max_length=120)
-    date=models.DateTimeField(auto_now=True)
+    date=models.DateTimeField(auto_now=True) 
 
     def __str__(self):
         return self.name
